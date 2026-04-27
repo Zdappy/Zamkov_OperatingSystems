@@ -6,9 +6,8 @@ int main() {
     int count = sizeof(numbers) / sizeof(numbers[0]);
     
     printf("=== Вычисление факториала ===\n\n");
-    
     printf("Рекурсивная версия:\n");
-    printf("-------------------\n");
+    
     for (int i = 0; i < count; i++) {
         int n = numbers[i];
         unsigned long long result = factorial(n);
@@ -16,7 +15,7 @@ int main() {
     }
     
     printf("\nИтеративная версия:\n");
-    printf("-------------------\n");
+    
     for (int i = 0; i < count; i++) {
         int n = numbers[i];
         unsigned long long result = factorial_iterative(n);
