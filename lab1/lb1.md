@@ -24,7 +24,7 @@
 
 ```text
 lab1/
-├── README.md       # Этот файл
+├── lb1.md          # Этот файл
 ├── report.md       # Подробный отчет
 ├── src/            # Исходный код
 │   ├── main.c
@@ -33,11 +33,11 @@ lab1/
 ├── include/        # Заголовочные файлы
 │   └── factorial.h
 ├── asm/            # Ассемблерный код
-    ├── factorial_O0.s
-    ├── factorial_O1.s
-    ├── factorial_O2.s
-    └── factorial_O3.s
-
+│   ├── factorial_O0.s
+│   ├── factorial_O1.s
+│   ├── factorial_O2.s
+│   └── factorial_O3.s
+└── Makefile
 ```
 ---
 
