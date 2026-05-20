@@ -59,7 +59,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 .\3b.ps1 -searchString "System"
 ```
 
-[скрин](images/5.jpg)
+[images/5.jpg]
 
 ## Вывод
 1. Освоены основы написания скриптов на PowerShell
