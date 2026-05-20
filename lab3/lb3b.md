@@ -30,20 +30,20 @@ echo "" > 3b.ps1
 notepad 3b.ps1
 ```
 
-[скрин](images/1.jpg)
+![скрин](images/1.jpg)
 
 **2. Вставляем код:**
 
 [3b.ps1](3b.ps1)
 
-[скрин](images/2.jpg)
+![скрин](images/2.jpg)
 
 **3. Разрешаем выполнение скриптов и создаем тестовые файлы:**
 ```powershel
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-[скрин](images/3.jpg)
+![скрин](images/3.jpg)
 
 **4. Создаем тестовые файлы:**
 ```powershel
@@ -52,14 +52,14 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 "System restart required" | Out-File -FilePath test3.txt
 ```
 
-[скрин](images/4.jpg)
+![скрин](images/4.jpg)
 
 ** 5. Запускаем скрипт и смотрим результаты**
 ```powershel
 .\3b.ps1 -searchString "System"
 ```
 
-[images/5.jpg]
+![скрин](images/5.jpg)
 
 ## Вывод
 1. Освоены основы написания скриптов на PowerShell
