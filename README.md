@@ -49,3 +49,13 @@
 [Видео](https://drive.google.com/file/d/1GUg7GNHAGq6O3qgoHIDxdIhJAakyjdA5/view?usp=drive_link)
 
 [Подробный отчёт](lab3/lb3a.md)
+
+## [Лабораторная 3b](lab3/lb3b.md)
+
+**Тема:** Скрипт PowerShell для поиска строки в `.txt` файлах
+
+**Выполнено:**
+- Скрипт `3b.ps1`: рекурсивный поиск заданной строки во всех `.txt` файлах каталога
+- Использование `Get-ChildItem` + `Select-String -Quiet` для поиска совпадений
+
+[Подробный отчёт](lab3/lb3a.md)

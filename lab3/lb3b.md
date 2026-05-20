@@ -28,6 +28,7 @@
 ```powershell
 echo "" > 3b.ps1
 notepad 3b.ps1
+```
 
 [скрин](images/1.jpg)
 
@@ -40,6 +41,7 @@ notepad 3b.ps1
 **3. Разрешаем выполнение скриптов и создаем тестовые файлы:**
 ```powershel
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
 [скрин](images/3.jpg)
 
@@ -48,17 +50,22 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 "System update completed" | Out-File -FilePath test1.txt
 "Daily backup report" | Out-File -FilePath test2.txt
 "System restart required" | Out-File -FilePath test3.txt
+```
 
 [скрин](images/4.jpg)
 
 ** 5. Запускаем скрипт и смотрим результаты**
 ```powershel
 .\3b.ps1 -searchString "System"
+```
 
 [скрин](images/5.jpg)
+
 ## Вывод
 1. Освоены основы написания скриптов на PowerShell
 2. Изучены cmdlets: Get-ChildItem, Select-String, Out-File, ForEach-Object
 3. Реализована работа с параметрами скрипта через param()
 4. Освоено управление политикой выполнения скриптов в PowerShell
 5. Скрипт протестирован на поиск строки в текстовых файлах с сохранением результатов
+
+[Вернуться к главному README](../README.md)
