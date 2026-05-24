@@ -32,6 +32,7 @@
 
 ### 5. Документирование
 - [Видео процесса установки](https://drive.google.com/file/d/1MDtrdMjNjyUBXeSY8hR2elR_1bJXYEp7/view?usp=drive_link)
+- [Видео swap](https://drive.google.com/file/d/1OFltUi_aFuxcjQkapqm0ImOWe_8ibtrN/view?usp=sharing)
 
 ## Вывод
 1. Изучен процесс bootstrapping на примере Arch Linux
